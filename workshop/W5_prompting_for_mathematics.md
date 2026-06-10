@@ -1,4 +1,5 @@
 # Prompting and workflow patterns for mathematical work
+
 ## a useful prompt structure
 
 A good prompt does not need to be long, but it should give the model enough orientation. For mathematical work, it is usually helpful to include five things: the goal, the context, the assumptions, what you have already tried, and the desired form of the answer.
@@ -13,7 +14,9 @@ It is usually inefficient to ask for a complete solution immediately. A better p
 
 This is especially useful for open-ended research questions. ChatGPT may be helpful in exploration: suggesting examples, reformulating a conjecture, identifying related concepts, proposing computational tests, or pointing out possible failure modes. But exploration should be separated from verification. A suggestion that sounds plausible is only a lead; it becomes useful mathematics only after it has been checked.
 
-## A practical workflow is:
+## a practical workflow
+
+A practical workflow is:
 
 1. clarify the problem and notation;
 2. ask for examples, special cases, or possible approaches;
