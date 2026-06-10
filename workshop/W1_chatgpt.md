@@ -1,5 +1,5 @@
 # The ChatGPT user interface
-Many are familiar with the chat interface of ChatGPT. It has become a kind of a standard for most similar applications. ADP also mirrors this interface, and ADP also provides access to some of the same models as in ChatGPT. That's why we briefly review how it works.
+Many are familiar with the chat interface of ChatGPT. It has become a de facto standard for many similar applications. ADP also mirrors this interface, and ADP also provides access to some of the same models as in ChatGPT. That's why we briefly review how it works.
 
 ## chats and context
 When you open ChatGPT or ADP, you mostly interact with it through a chat interface. You write a message, the system sends your message and the relevant previous context to a language model, and the model writes a response. You can then continue the conversation: ask for clarification, point out mistakes, request examples, change the format, or move to a more precise version of the question. This conversational form is one of the main advantages of ChatGPT: you do not need to formulate the perfect question at once.

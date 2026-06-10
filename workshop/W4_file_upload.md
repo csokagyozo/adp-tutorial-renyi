@@ -8,6 +8,8 @@ Uploaded files should be used deliberately. A large file may consume substantial
 
 As with ordinary chat answers, file-based answers must be checked. ChatGPT may miss details, misunderstand notation, or summarize a technical argument too confidently. For serious mathematical use, treat file upload as a way to navigate and discuss documents more efficiently, not as a substitute for reading and verification.
 
+Before uploading files, also check the privacy and confidentiality section, especially for unpublished work, referee reports, student data, or personal data.
+
 file upload in ADP:
 <p align="center">
 <img src="../screenshots/screenshot_adp_file_upload.png" width="50%">

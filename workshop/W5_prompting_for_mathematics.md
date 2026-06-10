@@ -15,14 +15,15 @@ This is especially useful for open-ended research questions. ChatGPT may be help
 
 ## A practical workflow is:
 
-clarify the problem and notation;
-ask for examples, special cases, or possible approaches;
-test promising ideas on small cases;
-ask for a proof sketch or obstruction;
-inspect the details yourself;
-ask for a line-by-line critique;
-write a clean summary of what survived verification.
-useful mathematical tasks
+1. clarify the problem and notation;
+2. ask for examples, special cases, or possible approaches;
+3. test promising ideas on small cases;
+4. ask for a proof sketch or obstruction;
+5. inspect the details yourself;
+6. ask for a line-by-line critique;
+7. write a clean summary of what survived verification.
+
+## useful mathematical tasks
 
 ChatGPT is often useful for tasks around the main act of proving, even when it does not solve the problem itself. It can help generate examples, search for counterexamples, explain definitions, compare formulations, translate intuition into notation, rewrite exposition, produce LaTeX, design small computations, or identify possible gaps in an argument.
 

@@ -24,7 +24,7 @@ It is worth checking this occasionally, especially if you use stronger models, u
 
 ## available models
 
-As of the workshop, the following models are available in ADP:
+As of the workshop date, the following models are available in ADP:
 1. ChatGPT 5.4 "instant",
 2. ChatGPT 5.4 "thinking",
 3. ChatGPT 5.5 "thinking"
@@ -33,10 +33,11 @@ The practical question is simple: which model is appropriate for the task? Diffe
 
 A useful way to think about model choice is the following:
 
-use a fast and cheaper model for routine tasks such as rewriting, summarizing, translating, formatting LaTeX, or producing a first rough draft;
-use a stronger reasoning-oriented model for proof checking, counterexample search, difficult mathematical explanations, debugging a subtle argument, or planning a computational experiment;
-use a model with good coding or data-analysis support when the task involves code, tables, calculations, or plots;
-switch models if the conversation is not progressing, the answer is too shallow, or the task turns out to require more careful reasoning.
-cost and model choice
+ - use a fast and cheaper model for routine tasks such as rewriting, summarizing, translating, formatting LaTeX, or producing a first rough draft
+ - use a stronger reasoning-oriented model for proof checking, counterexample search, difficult mathematical explanations, debugging a subtle argument, or planning a computational experiment
+ - use a model with good coding or data-analysis support when the task involves code, tables, calculations, or plots
+ - switch models if the conversation is not progressing, the answer is too shallow, or the task turns out to require more careful reasoning.
+
+## cost and model choice
 
 For workshop purposes, the main goal is to learn when model choice matters. If your task is routine, save credits by using a fast model. If your task requires serious reasoning, spend the credit where it helps.

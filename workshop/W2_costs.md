@@ -1,7 +1,7 @@
 # Behind the scenes: model requests, tokens, credits, and cost intuition 
 
 ## model requests and context
-When having a conversation in ChatGPT, behind the scenes each answer is produced by a model request. Roughly speaking, when you send a message, the system sends the model your new message together with the relevant context from the conversation, and the model generates the next answer. The model reacts when a request is made.
+When you have a conversation in ChatGPT, behind the scenes each answer is produced by a model request. Roughly speaking, when you send a message, the system sends the model your new message together with the relevant context from the conversation, and the model generates the next answer. The model reacts when a request is made.
 
 This also explains why long conversations can become expensive or difficult to control. If the relevant context contains many previous messages, definitions, proof attempts, examples, or uploaded text, then the model has more material to process. Sometimes this is useful, because the model can build on previous work. Sometimes it is better to start a new chat and paste in a short, clean summary of the current state.
 
