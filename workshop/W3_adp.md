@@ -25,9 +25,10 @@ It is worth checking this occasionally, especially if you use stronger models, u
 ## available models
 
 As of the workshop date, the following models are available in ADP:
-1. ChatGPT 5.4 "instant",
-2. ChatGPT 5.4 "thinking",
-3. ChatGPT 5.5 "thinking"
+1. **LocalGPT**: Gemma open-source model running on Science Cloud, suitable for everyday tasks and secure data processing. Available tools: web search, calculator, file search for uploaded files, and an execution environment for running code in its own environment — code interpreter.
+2. **gpt-5.4-mini**: Available tools: web search, calculator, and execution environment.
+3. **ToolUniverse**: ChatGPT 5.4 model. Available tools: web search, calculator, and more than 2,200 scientific tools curated by ToolUniverse (https://aiscientist.tools).
+4. **gpt-5.5** with advanced reasoning capabilities. Available tools: web search, calculator, and execution environment.
 
 The practical question is simple: which model is appropriate for the task? Different models have different trade-offs between speed, cost, reasoning depth, coding ability, tool use, and reliability on hard problems. The available model list may also change over time.
 
