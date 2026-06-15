@@ -1,0 +1,35 @@
+Rényi AI workshop
+
+- Recent advances
+  - FrontierMath Tier 4 is a collection of math problems that each take expert mathematicians in the relevant field days to solve. The latest LLM can solve 88% of the problems, in a significantly shorter time than the experts.
+    - [https://x.com/EpochAIResearch/status/2065511916035018943/photo/1](https://x.com/EpochAIResearch/status/2065511916035018943/photo/1)
+    - Footnote: this LLM, Fable 5, is forbidden by the US government to be used by non-US citizens. The second best, ChatGPT 5.5 solves 78%.
+  - The recent Erdős unit distance breakthrough was achieved by an internal OpenAI model, but later it was verified that ChatGPT 5.5 Pro can also do it. That means that in hindsight, since April anyone could have bumped into the result just by typing the question into a textbox.
+- Reasoning levels
+  - These scary good results depend on extreme reasoning levels (amount of time spent thinking), and a lot of helper programs written and executed by the model. Hence, when you try these models on lower reasoning levels, it can be disappointing.
+  - Don't try distilled models, so for example ADP 5.4-mini is out. (Distilled means dumbed down by trying to push its knowledge into a smaller artificial brain. The advantage is price and speed.)
+  - When you use [chatgpt.com](http://chatgpt.com/), never use Instant for math. Thinking is fine, but it's less smart than Pro and needs more nudging to save money for OpenAI. (Nudging: when your single robotic task is to repeatedly type: "keep on doing it".)
+    - Regarding ADP models,
+    - [https://adp.hun-ren.hu/share/5UbMRA1WZf98X4oLiQJla](https://adp.hun-ren.hu/share/5UbMRA1WZf98X4oLiQJla) toy example: draw a Golomb graph. 5.4-mini fails, 5.5 does it.
+    - [https://adp.hun-ren.hu/share/j_wj-ZmQAGpb88oGHVaDF](https://adp.hun-ren.hu/share/j_wj-ZmQAGpb88oGHVaDF) tooluniverse 5.4 fails, probably because of its lower reasoning level.
+  - The amount of reasoning (hence amount of money spent in ADP) depends on random factors. But one thing that influences it is how broad and large-scale your request is. 4-coloring the Golomb graph was 10 cents.
+    - This question has burnt ALL my 10 dollar ADP quota: [https://adp.hun-ren.hu/share/P15ks4E_26d2NTiriyi9Z](https://adp.hun-ren.hu/share/P15ks4E_26d2NTiriyi9Z)
+    - And it's not even correct; it found a beautiful algebraic construction. It's not easy to prove the necessary properties of the construction, and it cut corners because it got overexcited. A very human mistake to make.
+- An anecdote
+  - Overkill: it independently re-derives Radchenko’s infinite-degree lattice construction for Brass’s conjecture (published in Discrete & Computational Geometry), although all I really wanted was to find the reference.
+  - Once the proof is known, locating the reference is straightforward.
+  - Maybe the proof idea was there in the model's subconscious, taken from arxiv? We'll never really know.
+  - Sorry, the following link only works within the AI team's workspace. A very annoying property of the so called ChatGPT Business plan, conversations cannot be shared, just with colleagues.
+    - [https://chatgpt.com/share/e/6a304713-e55c-8325-84e0-a95e1fb60ef8](https://chatgpt.com/share/e/6a304713-e55c-8325-84e0-a95e1fb60ef8)
+- Other tips
+  - LLMs are very good at inferring context, so feel free to phrase the cheap questions imprecisely. At worst, you'll just rephrase them if a misunderstanding occurs. Don't do that with the expensive models, though.
+  - If you use [chatgpt.com](http://chatgpt.com/), speech recognition can be great. I love brainstorming while walking in the forest. If something comes out, I just say "write it up in a standalone latex file".
+- Codex
+  - I nowadays use codex, which is for a bit more proficient computer users. It's about letting ChatGPT use your computer. Feel free to ask about it in person!
+  - I use codex to co-edit a document with an LLM, and use github to share it with human collaborators. Overleaf has github integration, so this codex-github-overleaf pipeline is supposed to work end-to-end. Haven't tried, though.
+  - It is becoming common to create formally verifiable (nowadays Lean) variants of proofs. LLMs are of course good at that. (And not just custom ones with this single goal, like [Aristotle](https://aristotle.harmonic.fun/).)
+    - Here's my first attempt with codex: [https://github.com/danielvarga/kravitz_sets/blob/main/README.md](https://github.com/danielvarga/kravitz_sets/blob/main/README.md)
+  - Failure case: codex failed badly at coherently combining 7 of my papers into a monograph, synchronising notation, removing redundancies. Maybe it was too much text to keep in mind at once? It was worth ten minutes of my time, though. Maybe next year. :)
+- Bottom line
+  - Many of us have a collection of half-finished abandoned papers. Pick one, make the model aware of the pain points, ask the model how to finish it.
+  - Or maybe not? Take your favourite unsolved problem, take an idea that you feel is very good but hasn't delivered results yet. Ask the model to try to make it work. Best case, it works. Second best case, the LLM will solve the problem without using your idea. :) Worst case, you get to understand the limitations of these systems. They still have plenty, but they are improving.
