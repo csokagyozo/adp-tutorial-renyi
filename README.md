@@ -3,6 +3,9 @@
 These notes accompany the workshop “How to use ChatGPT in mathematics research”.
 They are intended both as preparation material and as a reference after the workshop.
 
+[presentation slides (Győző Csóka)](AI_in_research_Renyi_Institute_workshop_2026_06_15.pdf)
+[presentation notes (Dániel Varga)](ai_workshop.md)
+
 ## Table of Contents
 
 1. [The ChatGPT user interface](workshop/W1_chatgpt.md)
